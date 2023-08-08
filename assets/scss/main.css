@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Caveat:wght@400;500&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,700&family=Dancing+Script:wght@700&family=Lobster&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Nunito:wght@300;400;500&family=Space+Grotesk:wght@600;700&display=swap");
+.header {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .logo {
+  width: 111px;
+}
+.header .container .logo a {
+  font-size: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 31.25px;
+  letter-spacing: -0.29px;
+  text-align: center;
+  color: #1e0e62;
+}
+.header .container .navBar {
+  width: 68%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container .navBar .navList {
+  display: flex;
+  gap: 36px;
+}
+.header .container .navBar .navList .navItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .container .navBar .navList .navItem a {
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.29px;
+  text-align: center;
+  color: #777679;
+}
+.header .container .navBar .navList .navItem i {
+  color: #777679;
+}
+.header .container .navBar .socialList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header .container .navBar .socialList .socialItem a {
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.29px;
+  text-align: center;
+  color: #777679;
+}
+.header .container .navBar .socialList .socialBtn {
+  border-radius: 25px;
+  background-color: #25dac5;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .container .navBar .socialList .socialBtn a {
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.29px;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1159px;
+  margin: 0 auto;
+}
+
+.framework {
+  width: 100%;
+  background-color: #fff;
+  padding: 40px 0;
+}
+.framework .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+.framework .container .mainContent {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.framework .container .mainContent .title {
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 86px;
+  letter-spacing: -1px;
+  color: #1e0e62;
+}
+.framework .container .mainContent .contentText {
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
+}
+.framework .container .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+}
+.framework .container .buttons .payBtn {
+  background-color: #25dac5;
+  padding: 17px 41px;
+  border-radius: 100px;
+}
+.framework .container .buttons .payBtn a {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.framework .container .buttons .learnBtn a {
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.225px;
+  color: #25dac5;
+}
+
+.steps {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0;
+}
+.steps .container .stepTitle {
+  font-family: "DM Sans";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+  color: #1e0e62;
+  padding-bottom: 40px;
+}
+.steps .container .cardBox {
+  display: flex;
+  position: relative;
+}
+.steps .container .cardBox .xross {
+  width: 3px;
+  height: 500px;
+  background-color: #ebeaed;
+  z-index: 1;
+  position: absolute;
+  margin-left: 22px;
+  top: 15px;
+}
+.steps .container .cardBox .information {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.steps .container .cardBox .information .textCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+.steps .container .cardBox .information .textCard .textCardTitle {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #1e0e62;
+  z-index: 2222;
+}
+.steps .container .cardBox .information .textCard .textCardTitle .number {
+  width: 55px;
+  height: 50px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  border-radius: 50%;
+  background-color: #ebeaed;
+  padding: 10px 19px;
+  color: rgba(21, 20, 57, 0.4);
+  margin-right: 44px;
+}
+.steps .container .cardBox .information .textCard .aboutText {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(21, 20, 57, 0.4);
+  width: 810px;
+  padding-left: 90px;
+}
+.steps .container .cardBox .information .textCard .imgInfo {
+  padding-left: 90px;
+  display: flex;
+  gap: 30px;
+}
+.steps .container .cardBox .information .textCard .imgInfo img {
+  width: 170px;
+  height: 113px;
+}
+.steps .container .cardBox .information .textCard .imgInfo .imgTitle {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.steps .container .cardBox .information .textCard .imgInfo .imgTitle .imgmainTitle {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #1e0e62;
+  z-index: 2222;
+}
+.steps .container .cardBox .information .textCard .imgInfo .imgTitle .imgText {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(21, 20, 57, 0.4);
+  max-width: 300px;
+}
+.steps .container .cardBox .information .learnBtn {
+  background-color: #25dac5;
+  padding: 17px 41px;
+  border-radius: 100px;
+  margin-left: 85px;
+}
+.steps .container .cardBox .information .learnBtn a {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.design {
+  width: 100%;
+  padding: 50px 0;
+}
+.design .container {
+  display: flex;
+  align-items: center;
+}
+.design .container .leftSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+.design .container .leftSide .leftTop {
+  max-width: 443px;
+}
+.design .container .leftSide .leftTop .leftTitle {
+  font-family: "DM Sans";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  color: #1e0e62;
+  letter-spacing: -0.4px;
+}
+.design .container .leftSide .leftTop .leftText {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: rgba(21, 20, 57, 0.4);
+  margin-top: 30px;
+}
+.design .container .leftSide .leftBottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+.design .container .leftSide .leftBottom .bottomHeader {
+  width: 100%;
+}
+.design .container .leftSide .leftBottom .bottomHeader .bottomTitle {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #1e0e62;
+}
+.design .container .leftSide .leftBottom .bottomHeader .bottomText {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: rgba(21, 20, 57, 0.4);
+  margin-top: 15px;
+  max-width: 360px;
+}
+.design .container .rightSide {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.design .container .rightSide .white {
+  width: 50%;
+  position: relative;
+}
+.design .container .rightSide .white img {
+  width: 330px;
+  height: 663px;
+  position: absolute;
+  left: 310px;
+  top: 70px;
+}
+.design .container .rightSide .white :nth-child(1) {
+  z-index: 1000;
+}
+.design .container .rightSide .white :nth-child(2) {
+  border-radius: 50px;
+  width: 310px;
+  position: absolute;
+  left: 320px;
+}
+.design .container .rightSide .black {
+  width: 50%;
+}
+.design .container .rightSide .black img {
+  width: 353px;
+  z-index: 500;
+  height: 700px;
+}
+.design .container .rightSide .black :nth-child(2) {
+  border-radius: 50px;
+  width: 325px;
+  height: 690px;
+  position: absolute;
+  right: 255px;
+  z-index: -100;
+}/*# sourceMappingURL=main.css.map */

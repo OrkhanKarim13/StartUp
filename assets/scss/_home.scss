@@ -1,0 +1,305 @@
+.framework {
+  width: 100%;
+  background-color: #fff;
+  padding: 40px 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    .mainContent {
+      width: 60%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 35px;
+      .title {
+        width: 100%;
+        font-family: "DM Sans", sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 86px;
+        letter-spacing: -1px;
+        color: #1e0e62;
+      }
+      .contentText {
+        width: 100%;
+        font-family: "DM Sans", sans-serif;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        text-align: center;
+        color: rgba(21, 20, 57, 0.4);
+      }
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      gap: 18px;
+      .payBtn {
+        background-color: #25dac5;
+        padding: 17px 41px;
+        border-radius: 100px;
+        a {
+          color: #fff;
+          font-family: "DM Sans";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 26px;
+        }
+      }
+      .learnBtn {
+        a {
+          text-align: center;
+          font-family: "DM Sans";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 26px;
+          letter-spacing: -0.225px;
+          color: #25dac5;
+        }
+      }
+    }
+  }
+}
+
+.steps {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0;
+  .container {
+    .stepTitle {
+      font-family: "DM Sans";
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 52px;
+      letter-spacing: -0.4px;
+      color: #1e0e62;
+      padding-bottom: 40px;
+    }
+    .cardBox {
+      display: flex;
+      position: relative;
+      .xross {
+        width: 3px;
+        height: 500px;
+        background-color: #ebeaed;
+        z-index: 1;
+        position: absolute;
+        margin-left: 22px;
+        top: 15px;
+      }
+      .information {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+
+        .textCard {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding: 20px 0;
+          .textCardTitle {
+            font-family: "DM Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            color: #1e0e62;
+            z-index: 2222;
+            .number {
+              width: 55px;
+              height: 50px;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 26px;
+              border-radius: 50%;
+              background-color: #ebeaed;
+              padding: 10px 19px;
+              color: rgba(21, 20, 57, 0.4);
+              margin-right: 44px;
+            }
+          }
+          .aboutText {
+            font-family: "DM Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            color: rgba(21, 20, 57, 0.4);
+            width: 810px;
+            padding-left: 90px;
+          }
+          .imgInfo {
+            padding-left: 90px;
+            display: flex;
+            gap: 30px;
+            img {
+              width: 170px;
+              height: 113px;
+            }
+            .imgTitle {
+              display: flex;
+              align-items: flex-start;
+              flex-direction: column;
+              justify-content: flex-start;
+              gap: 12px;
+              .imgmainTitle {
+                font-family: "DM Sans";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px;
+                color: #1e0e62;
+                z-index: 2222;
+              }
+              .imgText {
+                font-family: "DM Sans";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                color: rgba(21, 20, 57, 0.4);
+                max-width: 300px;
+              }
+            }
+          }
+        }
+        .learnBtn {
+          background-color: #25dac5;
+          padding: 17px 41px;
+          border-radius: 100px;
+          margin-left: 85px;
+          a {
+            color: #fff;
+            font-family: "DM Sans";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.design {
+  width: 100%;
+  padding: 50px 0;
+  .container {
+    display: flex;
+    align-items: center;
+    .leftSide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 60px;
+      .leftTop {
+        max-width: 443px;
+        .leftTitle {
+          font-family: "DM Sans";
+          font-size: 42px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 52px;
+          color: #1e0e62;
+          letter-spacing: -0.4px;
+        }
+        .leftText {
+          font-family: "DM Sans";
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 32px;
+          color: rgba(21, 20, 57, 0.4);
+          margin-top: 30px;
+        }
+      }
+      .leftBottom {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+        .bottomHeader {
+          width: 100%;
+          .bottomTitle {
+            font-family: "DM Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            color: #1e0e62;
+          }
+          .bottomText {
+            font-family: "DM Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+            color: rgba(21, 20, 57, 0.4);
+            margin-top: 15px;
+            max-width: 360px;
+          }
+        }
+      }
+    }
+    .rightSide {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .white {
+        width: 50%;
+        position: relative;
+        img {
+          width: 330px;
+          height: 663px;
+          position: absolute;
+          left: 310px;
+          top: 70px;
+        }
+      }
+      .white :nth-child(1){
+        z-index: 1000;
+      }
+      .white :nth-child(2){
+        border-radius: 50px;
+        width: 310px;
+        position: absolute;
+        left: 320px;
+      }
+      .black {
+        width: 50%;
+        img {
+          width: 353px;
+          z-index: 500;
+          height: 700px;
+        }
+      }
+      .black :nth-child(2){
+        border-radius: 50px;
+        width: 325px;
+        height: 690px;
+        position: absolute;
+        right: 255px;
+        z-index: -100;
+      }
+    }
+  }
+}
