@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/scss/main.css" />
@@ -138,13 +142,131 @@
             </div>
           </div>
           <div class="rightSide">
-            <div class="white">
-              <img src="./assets/images/dd62f38ec7f3dfd69ff00789b49cb79a.png" alt="phone">
-              <img src="./assets/images/screen.jpg" alt="screen">
+            <div class="white scrollfour">
+              <img
+                src="./assets/images/dd62f38ec7f3dfd69ff00789b49cb79a.png"
+                alt="phone"
+              />
+              <img src="./assets/images/screen.jpg" alt="screen" />
             </div>
             <div class="black">
-              <img src="./assets/images/blackiphone.png" alt="phone">
-              <img src="./assets/images/screeen.jpg" alt="screen">
+              <img src="./assets/images/blackiphone.png" alt="phone" />
+              <img src="./assets/images/screeen.jpg" alt="screen" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="build">
+        <div class="container">
+          <div class="mainContent">
+            <div class="buildTitle">
+              <h3 class="contentTitle">
+                Build Your Own Site like a Lego Constructor
+              </h3>
+              <p class="contentText">
+                We have created a new product that will help designers,
+                developers and companies create websites for their startups
+                quickly and easily.
+              </p>
+              <a href="#">Create an Account</a>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="cardImg">
+                <img src="./assets/images/person1.jpg" alt="person" />
+              </div>
+              <div class="cardText">
+                <p class="cardInfo">
+                  A high-quality solution for a beautiful startup website.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="cardImg">
+                <img src="./assets/images/card2.jpg" alt="person" />
+              </div>
+              <div class="cardText">
+                <p class="cardInfo">
+                  Startups can save money on design and code and use those
+                  savings to develop the business.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="cardImg">
+                <img src="./assets/images/card3.jpg" alt="person" />
+              </div>
+              <div class="cardText">
+                <p class="cardInfo">
+                  Startup Framework includes great form options for your startup
+                  projects.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="leftSide">
+          <div class="leftTop scrollone">
+            <img src="./assets/images/lefttop.jpg" alt="img" />
+          </div>
+          <div class="leftBottom scrolltwo">
+            <img src="./assets/images/leftbottom.jpg" alt="img" />
+          </div>
+        </div>
+        <div class="middleSide">
+          <div class="middleTop scrollthree">
+            <img src="./assets/images/middletop.jpg" alt="img" />
+          </div>
+          <div class="middleBottom scrollfour">
+            <img src="./assets/images/middlebottom.jpg" alt="img" />
+          </div>
+        </div>
+        <div class="rightSide">
+          <div class="rightTop scrollfive">
+            <img src="/assets/images/righttop.jpg" alt="img" />
+          </div>
+          <div class="rightBottom scrollsix">
+            <img src="/assets/images/rightbottom.jpg" alt="img" />
+          </div>
+        </div>
+      </section>
+      <section class="form">
+        <div class="container">
+          <div class="aside">
+            <div class="formTitle">
+              <h3 class="formHeader">
+                We solve digital problems with an outstanding creative flare
+              </h3>
+            </div>
+            <div class="formText">
+              We have created a new product that will help designers, developers
+              and companies create websites for their startups quickly and
+              easily.
+            </div>
+          </div>
+          <div class="bside">
+            <div class="formContent">
+              <form class="signIn">
+                <div class="formheader">
+                  <h4 class="formTitle">Sign Up</h4>
+                  <h4 class="formtitle">Login</h4>
+                </div>
+                <div class="inputs">
+                  <div><input type="text" /></div>
+                  <div><input type="text" /></div>
+                </div>
+                <div class="buttons">
+                  <div class="btn">
+                    <a href="#">Create an Account</a>
+                  </div>
+                  <div class="btn">
+                    <a href="#">Login via Twitter</a>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -155,5 +277,13 @@
       src="https://kit.fontawesome.com/85a60fd075.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      ScrollReveal().reveal(".scrollone", { delay: 100, distance: "400px" });
+      ScrollReveal().reveal(".scrolltwo", { delay: 200, distance: "400px" });
+      ScrollReveal().reveal(".scrollthree", { delay: 300, distance: "400px" });
+      ScrollReveal().reveal(".scrollfour", { delay: 400, distance: "400px" });
+      ScrollReveal().reveal(".scrollfive", { delay: 500, distance: "400px" });
+      ScrollReveal().reveal(".scrollsix", { delay: 600, distance: "400px" });
+    </script>
   </body>
 </html>

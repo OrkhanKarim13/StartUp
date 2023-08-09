@@ -38,8 +38,27 @@
             letter-spacing: -0.29px;
             text-align: center;
             color: #777679;
+            transition: transform 0.3s linear;
+            position: relative;
+            &:before {
+              content: "";
+              position: absolute;
+              bottom: -3px;
+              left: 0;
+              height: 1px;
+              width: 100%;
+              background: #777679;
+              border-radius: 25px;
+              transform: scaleX(0);
+              transition: transform 0.3s linear;
+              transform-origin: right;
+            }
+            &:hover:before {
+              transform: scaleX(1);
+              transform-origin: left;
+            }
           }
-          i{
+          i {
             color: #777679;
           }
         }
@@ -67,6 +86,17 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          transition: 0.8s all;
+          border: 1px solid #25dac5;
+          &:hover {
+            background-color: transparent;
+            border: 1px solid #25dac5;
+            transition: 0.8s all;
+            a {
+              color: #25dac5;
+              transition: 0.3s all;
+            }
+          }
           a {
             font-size: 18px;
             font-family: "DM Sans", sans-serif;
