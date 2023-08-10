@@ -704,9 +704,9 @@
 }
 .form .container .bside {
   width: 450px;
-  height: 430px;
+  height: 450px;
   background-color: #fff;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 10px;
 }
 .form .container .bside .formContent {
   width: 100%;
@@ -738,12 +738,25 @@
 }
 .form .container .bside .formContent .signIn .inputs {
   width: 100%;
-  height: 250px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 30px;
+}
+.form .container .bside .formContent .signIn .inputs div input {
+  width: 300px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 2px solid #ebeaed;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 0 10px;
 }
 .form .container .bside .formContent .signIn .buttons {
   height: 250px;
@@ -751,5 +764,267 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
+}
+.form .container .bside .formContent .signIn .buttons .createBtn {
+  width: 300px;
+  height: 50px;
+  background-color: #25dac5;
+  padding: 5px 10px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form .container .bside .formContent .signIn .buttons .createBtn a {
+  border: 2px solid #25dac5;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  color: #fff;
+}
+.form .container .bside .formContent .signIn .buttons .or {
+  width: 100%;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d3d3d4;
+}
+.form .container .bside .formContent .signIn .buttons .or p {
+  overflow: hidden;
+  text-align: center;
+}
+.form .container .bside .formContent .signIn .buttons .or p:before,
+.form .container .bside .formContent .signIn .buttons .or p:after {
+  background-color: #d3d3d4;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+}
+.form .container .bside .formContent .signIn .buttons .or p:before {
+  width: 130px;
+  right: 0.5em;
+  margin-left: -50%;
+}
+.form .container .bside .formContent .signIn .buttons .or p:after {
+  width: 130px;
+  left: 0.5em;
+  margin-right: -50%;
+}
+.form .container .bside .formContent .signIn .buttons .loginBtn {
+  width: 300px;
+  height: 50px;
+  background-color: #1da1f2;
+  padding: 5px 10px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form .container .bside .formContent .signIn .buttons .loginBtn a {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  border: 2px solid #1da1f2;
+  color: #fff;
+}
+
+.footer {
+  width: 100%;
+  padding: 50px;
+  background-color: #2f1893;
+}
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .container .footerTop {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.footer .container .footerTop .topLeft {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.footer .container .footerTop .topLeft .topTitle {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: #fff;
+}
+.footer .container .footerTop .topLeft .footerText {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
+.footer .container .footerTop .topLeft .footerInp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer .container .footerTop .topLeft .footerInp input {
+  width: 200px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: transparent;
+  padding: 0 10px;
+  color: #fff;
+  border: 2px solid var(--colors-white, #9c9797);
+}
+.footer .container .footerTop .topLeft .footerInp a {
+  background-color: #25dac5;
+  padding: 10px 20px;
+  border-radius: 100px;
+  color: #fff;
+  border: 1px solid #25dac5;
+  transition: 0.8s all;
+}
+.footer .container .footerTop .topLeft .footerInp a:hover {
+  background-color: transparent;
+  color: #fff;
+  transition: 0.8s all;
+}
+.footer .container .footerTop .topMiddle {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.footer .container .footerTop .topMiddle .footerList .listItem {
+  padding: 10px 0;
+}
+.footer .container .footerTop .topMiddle .footerList .listItem a {
+  color: #fff;
+}
+.footer .container .footerTop .topMiddle .footerList .listItem {
+  padding: 10px 0;
+}
+.footer .container .footerTop .topMiddle .footerList .listItem a {
+  color: #fff;
+  transition: transform 0.8s linear;
+  position: relative;
+}
+.footer .container .footerTop .topMiddle .footerList .listItem a:before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #fff;
+  border-radius: 25px;
+  transform: scaleX(0);
+  transition: transform 0.8s linear;
+  transform-origin: right;
+}
+.footer .container .footerTop .topMiddle .footerList .listItem a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.footer .container .footerTop .topRight {
+  width: 20%;
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.footer .container .footerTop .topRight .buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .container .footerTop .topRight .buttons a {
+  color: #fff;
+}
+.footer .container .footerTop .topRight .buttons :nth-child(1) {
+  background-color: #e93a7d;
+  padding: 10px 15px;
+  border-radius: 100px;
+  transition: 0.8s all;
+  border: 2px solid #e93a7d;
+}
+.footer .container .footerTop .topRight .buttons :nth-child(1):hover {
+  color: #fff;
+  border: 2px solid #e93a7d;
+  background-color: transparent;
+  transition: 0.8s all;
+  font-size: 18px;
+}
+.footer .container .footerTop .topRight .buttons :nth-child(2) {
+  transition: transform 0.5s linear;
+  position: relative;
+}
+.footer .container .footerTop .topRight .buttons :nth-child(2):before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #fff;
+  border-radius: 25px;
+  transform: scaleX(0);
+  transition: transform 0.5s linear;
+  transform-origin: right;
+}
+.footer .container .footerTop .topRight .buttons :nth-child(2):hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.footer .container .footerBottom {
+  padding: 0 110px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.footer .container .footerBottom .bottomLinks {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.footer .container .footerBottom .bottomLinks a {
+  color: #fff;
+  transition: transform 0.5s linear;
+  position: relative;
+}
+.footer .container .footerBottom .bottomLinks a:before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #fff;
+  border-radius: 25px;
+  transform: scaleX(0);
+  transition: transform 0.5s linear;
+  transform-origin: right;
+}
+.footer .container .footerBottom .bottomLinks a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
 }/*# sourceMappingURL=main.css.map */
